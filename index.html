@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CITYMALL PROMOTION | HUOKAING THARA BANK</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Matrix Canvas Background -->
+  <canvas id="matrix-canvas"></canvas>
+
+  <div class="announcement-wrapper">
+    <div class="card-glass">
+      
+      <!-- Centered Header & Logo -->
+      <header class="portal-header">
+        <div class="brand-center-badge">
+          <div class="node-icon">
+            <div class="ring-cyan"></div>
+            <div class="ring-gold"></div>
+          </div>
+          <span class="est-tag">HUOKAING THARA BANK × CITYMALL</span>
+          <h1 class="header-title">SPECIAL 50% DISCOUNT PROMOTION</h1>
+        </div>
+        <div id="epoch-stabilizer">
+          STATUS: <span id="promo-status">PROMOTION ACTIVE</span>
+        </div>
+      </header>
+
+      <!-- Hero Banner Overlay -->
+      <section class="banner-container">
+        <div class="banner-overlay">
+          <h2>🛒 CITYMALL SUPERMARKET SPECIAL 🛍️</h2>
+          <p>Get 50% discount on all payments made with Huokaing Thara Bank!</p>
+        </div>
+      </section>
+
+      <!-- AI Voice Controls -->
+      <section class="ai-reader-panel">
+        <h3>🎙️ AI Voice Presentation Reader</h3>
+        <div class="visualizer-container">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <div class="btn-group">
+          <button class="sys-btn" onclick="playVoiceAnnouncement('km')">🇰🇭 អានជាភាសាខ្មែរ (Khmer)</button>
+          <button class="sys-btn" onclick="playVoiceAnnouncement('en')">🇺🇸 Read in English</button>
+          <button class="sys-btn stop-btn" onclick="stopVoiceReader()">🛑 Stop Reader</button>
+        </div>
+        <div id="transcript-box" class="transcript-screen">
+          System Standby. Click a button above to listen to the promotion details.
+        </div>
+      </section>
+
+      <!-- Bilingual Promotion Grid -->
+      <section class="notice-grid">
+        
+        <!-- Khmer Notice -->
+        <div class="notice-box khmer-box">
+          <h3>🇰🇭 កម្មវិធីប្រូម៉ូសិនពិសេស (Khmer)</h3>
+          <div class="notice-content">
+            🎉 <strong>សេចក្តីប្រកាសពិសេស!</strong> ធនាគារ <strong>ហួកាំង ថារ៉ា (Huokaing Thara Bank)</strong> សហការជាមួយ <strong>ផ្សារទំនើប Citymall Supermarket</strong>៖
+            
+            <div class="highlight-box">
+              🛍️ <strong>ការបញ្ចុះតម្លៃ ៥០% (50% OFF):</strong><br>
+              ទទួល‌បាន‌ការ‌បញ្ចុះ‌តម្លៃ‌រហូត‌ដល់ <strong>៥០%</strong> ភ្លាមៗ សម្រាប់ការ‌ទូទាត់‌ប្រាក់‌ទាំងអស់‌តាម‌រយៈ <strong>ធនាគារ ហួកាំង ថារ៉ា (Huokaing Thara Bank)</strong> នៅផ្សារទំនើប Citymall Supermarket!
+            </div>
+
+            <div class="highlight-box alert-box">
+              💳 <strong>របៀបទទួលបានការបញ្ចុះតម្លៃ:</strong><br>
+              គ្រាន់តែបង់ប្រាក់តាមរយៈកម្មវិធីធនាគារឌីជីថល ឬកាតធនាគារ ហួកាំង ថារ៉ា នៅគ្រប់បញ្ជរទូទាត់ប្រាក់ទាំងអស់ក្នុងផ្សារទំនើប Citymall។
+            </div>
+          </div>
+        </div>
+
+        <!-- English Notice -->
+        <div class="notice-box">
+          <h3>🇺🇸 Official Promotion Details (English)</h3>
+          <div class="notice-content">
+            🎉 <strong>Exclusive Offer!</strong> <strong>Huokaing Thara Bank</strong> in official partnership with <strong>Citymall Supermarket</strong>:
+            
+            <div class="highlight-box">
+              🛍️ <strong>50% INSTANT DISCOUNT:</strong><br>
+              Get an instant <strong>50% OFF</strong> for all your purchases and payments using <strong>Huokaing Thara Bank</strong> at Citymall Supermarket!
+            </div>
+
+            <div class="highlight-box alert-box">
+              💳 <strong>How to Redeem:</strong><br>
+              Simply complete your checkout payment using your Huokaing Thara Bank digital app or payment card at any Citymall cash counter.
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Telemetry Live Feed Log -->
+      <footer class="telemetry-footer">
+        <h3>🔴 REAL-TIME PROMOTION TELEMETRY LOGS</h3>
+        <ul id="telemetry-feed">Initializing promotional telemetry nodes...</ul>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="ultra_secure_mode.js"></script>
+</body>
+</html>
